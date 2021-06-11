@@ -15,7 +15,8 @@
       "launchUrl": "",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "DB_CONNECTION": "Server=BRENOLANDRYPC\\SQL01;Initial Catalog=dbapi;MultipleActiveResultSets=true;User ID=sa;Password=senh@invalid4"
+        "DB_CONNECTION": "Server=BRENOLANDRYPC\\SQL01;Initial Catalog=dbapi;MultipleActiveResultSets=true;User ID=sa;Password=senh@invalid4",
+        "DOTNET_INCREMENTAL": "true"
       }
     },
     "ApiSimples.Application": {
@@ -24,7 +25,8 @@
       "launchUrl": "",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOTNET_INCREMENTAL": "true"
       }
     }
   }
